@@ -1,0 +1,16 @@
+[package]
+name = "java_native"
+version = "0.1.0"
+authors = ["guirochas"]
+edition = "2018"
+
+[lib]
+name = "java_native"
+crate-type = ["cdylib"]
+
+
+[profile.release]
+lto = true
+
+[dependencies]
+
